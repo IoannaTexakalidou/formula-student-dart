@@ -22,7 +22,7 @@ Looking back, these runs were an early stiffness check and not a crash analysis.
 
 ## Powertrain parts
 
-Two of the powertrain parts I designed in Fusion 360 for the engine.
+In the powertrain subteam I designed the air intake inlet cone, the intake runners, a 4-into-1 exhaust header, gears and the fuel tank in Fusion 360. Two of them are shown below.
 
 | 4-into-1 exhaust header | Intake runners |
 |---|---|
