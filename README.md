@@ -12,11 +12,11 @@ I read through published IA designs and test papers and the 2023 rules, then des
 
 ![Engineering drawing of my IA proposal](figures/drawing.png)
 
-I ran static FEA in Fusion 360 for three load directions, frontal, diagonal and side, and checked stress, displacement, strain and safety factor for each one.
+I ran static FEA in Fusion 360 for three load directions, frontal, diagonal and side, and checked stress, displacement, strain and safety factor for each one. The images show the displacement results.
 
 | Frontal load | Diagonal load | Side load |
 |---|---|---|
-| ![](figures/fea_frontal_stress.png) | ![](figures/fea_diagonal.png) | ![](figures/fea_side.png) |
+| ![](figures/fea_frontal.png) | ![](figures/fea_diagonal.png) | ![](figures/fea_side.png) |
 
 These were static checks of the structure at the design stage. The energy absorption of a real IA has to be proven with a dynamic crash test, which the team hadn't reached yet.
 
