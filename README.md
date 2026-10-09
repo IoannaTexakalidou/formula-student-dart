@@ -12,13 +12,13 @@ I read through published IA designs and test papers and the 2023 rules, then des
 
 ![Engineering drawing of my IA proposal](figures/drawing.png)
 
-I ran static FEA in Fusion 360 for three load directions, frontal, diagonal and side, and checked stress, displacement, strain and safety factor for each one. The images show the displacement results.
+As a first check I ran linear static FEA in Fusion 360 for three load directions, frontal, diagonal and side, and looked at stress, displacement, strain and safety factor. The images show the displacement results.
 
 | Frontal load | Diagonal load | Side load |
 |---|---|---|
 | ![](figures/fea_frontal.png) | ![](figures/fea_diagonal.png) | ![](figures/fea_side.png) |
 
-These were static checks of the structure at the design stage. The energy absorption of a real IA has to be proven with a dynamic crash test, which the team hadn't reached yet.
+Looking back, these runs were an early stiffness check and not a crash analysis. The applied loads were a few kN, while the rules imply about 59 kN on average (300 kg at 20 g) and up to about 118 kN at the 40 g peak. Some local areas near the mounting points also went below a safety factor of 1. An impact attenuator is meant to crush and absorb 7,350 J, which means plastic deformation over at least about 125 mm, so linear static FEA can't show whether it works. The proper next step would be an explicit dynamic simulation (for example LS-DYNA) and a drop test. The team was still in the design phase and hadn't reached that point.
 
 ## Powertrain parts
 
